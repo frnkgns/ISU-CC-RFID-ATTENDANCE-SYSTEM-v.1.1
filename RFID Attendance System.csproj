@@ -89,17 +89,18 @@
     <Compile Include="DataStatistics.Designer.cs">
       <DependentUpon>DataStatistics.cs</DependentUpon>
     </Compile>
+    <Compile Include="DGVPrinter.cs" />
     <Compile Include="FormAttendance.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormAttendance.Designer.cs">
       <DependentUpon>FormAttendance.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPrint.cs">
+    <Compile Include="FormPrinter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPrint.Designer.cs">
-      <DependentUpon>FormPrint.cs</DependentUpon>
+    <Compile Include="FormPrinter.Designer.cs">
+      <DependentUpon>FormPrinter.cs</DependentUpon>
     </Compile>
     <Compile Include="FormRegister.cs">
       <SubType>Form</SubType>
@@ -116,14 +117,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="bin\Debug\RFID DB.db" />
+    <None Include="Resources\isulogo.png" />
+    <None Include="Resources\cct.png" />
     <EmbeddedResource Include="DataStatistics.resx">
       <DependentUpon>DataStatistics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAttendance.resx">
       <DependentUpon>FormAttendance.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPrint.resx">
-      <DependentUpon>FormPrint.cs</DependentUpon>
+    <EmbeddedResource Include="FormPrinter.resx">
+      <DependentUpon>FormPrinter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRegister.resx">
       <DependentUpon>FormRegister.cs</DependentUpon>
@@ -139,7 +143,10 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <Content Include="bin\Debug\error-call-to-attention-129258.wav" />
+    <Content Include="bin\Debug\livechat-129007.wav" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
